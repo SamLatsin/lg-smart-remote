@@ -1,0 +1,5 @@
+//include ':app'
+//include ':Connect-SDK-Android'
+include ':app', ':Connect-SDK-Android'
+project(':Connect-SDK-Android').projectDir = new File('libs/Connect-SDK-Android')
+rootProject.name = "LG Remote"

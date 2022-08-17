@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_remote"
+        android:icon="@drawable/footer_b_remote_not_active"
+        android:title="Remote" />
+
+    <item
+        android:id="@+id/navigation_control"
+        android:icon="@drawable/footer_b_control_not_active"
+        android:title="Control" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/footer_b_settings_not_active"
+        android:title="Settings" />
+
+</menu>

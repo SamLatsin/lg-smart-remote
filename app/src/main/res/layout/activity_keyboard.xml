@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary1"
+    tools:context=".activities.KeyboardActivity">
+
+    <ImageView
+        android:id="@+id/buttonClose"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:foreground="@drawable/ripple_effect"
+        android:onClick="closeClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/b_close"
+        android:focusable="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/keyboard_text_field"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editInput"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@+id/buttonSend"
+            android:layout_toLeftOf="@+id/buttonSend"
+            android:background="@android:color/transparent"
+            android:ems="13"
+            android:fontFamily="@font/rubik_regular"
+            android:hint="Type and press sent"
+            android:inputType="textPersonName"
+            android:textColor="#ffffff"
+            android:textColorHighlight="@color/colorPremium"
+            android:textColorHint="#ffffff"
+            android:textCursorDrawable="@null" />
+
+        <ImageView
+            android:id="@+id/buttonSend"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:foreground="@drawable/ripple_effect_light"
+            android:onClick="sendClick"
+            app:srcCompat="@drawable/keyboard_b_next" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
