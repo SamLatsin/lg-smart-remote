@@ -25,30 +25,15 @@ git clone https://github.com/SamLatsin/lg-smart-remote.git
 Open project in Android Studio and just build it.
 
 ### Screenshots
-Search screen:
 
-![Search](https://github.com/SamLatsin/lg-smart-remote/blob/main/preview/2022-08-19%204.01.57%20PM.jpg)
-
-Remote screen:
-
-![Main](https://github.com/SamLatsin/lg-smart-remote/blob/main/preview/2022-08-19%204.02.01%20PM.jpg)
-
-Control screen:
-
-![Control](https://github.com/SamLatsin/lg-smart-remote/blob/main/preview/2022-08-19%204.02.04%20PM.jpg)
-
-Keyboard screen:
-
-![Keyboard](https://github.com/SamLatsin/lg-smart-remote/blob/main/preview/2022-08-19%204.02.11%20PM.jpg)
-
-Gesture control screen:
-
-![Mouse](https://github.com/SamLatsin/lg-smart-remote/blob/main/preview/2022-08-19%204.02.14%20PM.jpg)
-
-Settings screen:
-
-![Settings](https://github.com/SamLatsin/lg-smart-remote/blob/main/preview/2022-08-19%204.02.17%20PM.jpg)
-
+<p float="left">
+  <img src="https://github.com/SamLatsin/lg-smart-remote/blob/main/preview/2022-08-19%204.01.57%20PM.jpg" width="16%" />
+  <img src="https://github.com/SamLatsin/lg-smart-remote/blob/main/preview/2022-08-19%204.02.01%20PM.jpg" width="16%" /> 
+  <img src="https://github.com/SamLatsin/lg-smart-remote/blob/main/preview/2022-08-19%204.02.04%20PM.jpg" width="16%" />
+  <img src="https://github.com/SamLatsin/lg-smart-remote/blob/main/preview/2022-08-19%204.02.11%20PM.jpg" width="16%" />
+  <img src="https://github.com/SamLatsin/lg-smart-remote/blob/main/preview/2022-08-19%204.02.14%20PM.jpg" width="16%" />
+  <img src="https://github.com/SamLatsin/lg-smart-remote/blob/main/preview/2022-08-19%204.02.17%20PM.jpg" width="16%" />
+</p>
 
 ## License
 
